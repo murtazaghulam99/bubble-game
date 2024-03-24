@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(155, 184, 155);
+}
+
+#panel {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#panel-top {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(72, 104, 72);
+  padding: 0px 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.elem h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.box {
+  color: rgb(18, 119, 57);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#panel-bottom {
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(72, 104, 72);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(50, 75, 50);
+}
